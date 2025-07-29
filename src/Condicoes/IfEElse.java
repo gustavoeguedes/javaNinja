@@ -9,12 +9,12 @@ public class IfEElse {
         String nome = "Naruto Uzumaki";
         int idade = 16;
         boolean hokage = false;
-        short numeroDeMissoes = 4;
+        short numeroDeMissoes = 14;
 
-        if (numeroDeMissoes > 10) {
-            System.out.println("Passa essa porra de nível");
+        if (numeroDeMissoes >= 10 && idade > 15) {
+            System.out.println("Rank: Chunnin");
         } else {
-            System.out.println("não passa de nível");
+            System.out.println("Rank: Gennin");
         }
     }
 }
