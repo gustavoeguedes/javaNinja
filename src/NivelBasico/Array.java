@@ -3,18 +3,26 @@ package NivelBasico;
 public class Array {
     public static void main(String[] args) {
 
-        String[] ninjas = new String[3];
+        String[][] ninjasEAldeias = new String[3][3];
 
-        ninjas[0] = "Naruto";
-        ninjas[1] = "Sasuke";
-        ninjas[2] = "Sakura";
+        ninjasEAldeias[0][0] = "Konoha";
+        ninjasEAldeias[0][1] = "Naruto Uzumaki";
+        ninjasEAldeias[0][2] = "Sasuke uchiha";
 
-        ninjas = new String[6];
+        ninjasEAldeias[1][0] = "nevoa";
+        ninjasEAldeias[1][1] = "zabuza";
+        ninjasEAldeias[1][2] = "haku";
 
+        ninjasEAldeias[2][0] = "Deserto";
+        ninjasEAldeias[2][1] = "Gaara";
+        ninjasEAldeias[2][2] = "Temari";
 
-        for (int i = 0; i < ninjas.length; i++) {
-            System.out.println("Ninja: " + ninjas[i]);
+        for (int i = 0; i < ninjasEAldeias.length; i++) {
+            System.out.println(ninjasEAldeias[i][0]);
+
         }
+
+
 
     }
 }
